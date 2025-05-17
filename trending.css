@@ -130,3 +130,34 @@
 .search-bar button {
     display: none;
 }
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .trending-header,
+  .trending-products {
+    max-width: 1600px;
+    padding: 40px 120px;
+  }
+  .trending-header h1 {
+    font-size: 4rem;
+  }
+  .trending-header p {
+    max-width: 900px;
+    font-size: 1.3rem;
+  }
+  .trending-grid {
+    gap: 60px;
+  }
+  .trending-image {
+    height: 400px;
+  }
+  .trending-details h3 {
+    font-size: 2.2rem;
+  }
+  .trending-price {
+    font-size: 2.5rem;
+  }
+  #trending-search-input {
+    width: 500px;
+    font-size: 1.2rem;
+  }
+}

@@ -6,7 +6,6 @@
 }
 
 body {
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -378,4 +377,45 @@ footer a:hover {
 
 footer .footer-container div:last-child {
     margin-left: auto;
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+  body {
+    max-width: 1920px;
+    padding: 0 120px;
+  }
+  header, footer {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .hero-content h1 {
+    font-size: 4.5rem;
+  }
+  .section-title {
+    font-size: 3.2rem;
+  }
+  .product-info h2 {
+    font-size: 2.2rem;
+  }
+  .product-info p {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+  .kitchen-product {
+    width: 500px;
+    padding: 40px;
+  }
+  .kitchen-product img {
+    height: 500px;
+  }
+  .shop-title {
+    font-size: 40px;
+  }
+  .footer-container div {
+    padding: 40px 0 40px 0;
+  }
+  .social-media {
+    gap: 40px;
+    margin-top: 120px;
+  }
 }

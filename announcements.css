@@ -6,7 +6,6 @@
 }
 
 body {
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -215,5 +214,58 @@ footer .footer-container{
 .menu-text {
     font-size: 16px;
     font-weight: 400;
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+  body {
+    max-width: 1920px;
+    padding: 0 120px;
+  }
+  header, footer {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .announcement-title {
+    font-size: 80px;
+    padding-left: 120px;
+  }
+  .announcement-description,
+  .robot-description,
+  .pay-description {
+    font-size: 28px;
+    padding-left: 120px;
+    width: 60%;
+  }
+  .robot-image {
+    width: 1600px;
+    height: 800px;
+  }
+  .pay-image {
+    width: 1400px;
+    height: 650px;
+  }
+  .related {
+    font-size: 56px;
+    padding-left: 120px;
+  }
+  .related-articles {
+    gap: 60px;
+    width: 90%;
+    padding-left: 120px;
+  }
+  .related-articles img {
+    width: 420px;
+    height: 420px;
+  }
+  .shop-title {
+    font-size: 40px;
+  }
+  .footer-container div {
+    padding: 40px 0 40px 0;
+  }
+  .social-media {
+    gap: 40px;
+    margin-top: 120px;
+  }
 }
 

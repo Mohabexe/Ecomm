@@ -1,3 +1,8 @@
+body {
+    /* Removed max-width: 1440px; to allow full responsiveness */
+    margin: 0 auto;
+}
+
 .help-center-container {
     padding: 120px 80px 50px;
     max-width: 1200px;
@@ -90,5 +95,43 @@
 
 .submit-btn:hover {
     background-color: #3050cc;
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+  body {
+    max-width: 1920px;
+    padding: 0 120px;
+  }
+  header, footer {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .help-center-container {
+    max-width: 1600px;
+    padding: 120px 180px 50px;
+  }
+  .help-center-header h1 {
+    font-size: 3.5rem;
+  }
+  .help-center-header p {
+    font-size: 1.2rem;
+    max-width: 80%;
+  }
+  .contact-form-container {
+    padding: 80px;
+  }
+  .contact-form-container h2 {
+    font-size: 2.5rem;
+  }
+  .form-group input,
+  .form-group textarea {
+    font-size: 1.2rem;
+    padding: 18px;
+  }
+  .submit-btn {
+    font-size: 1.3rem;
+    width: 220px;
+    padding: 18px;
+  }
 }
 
