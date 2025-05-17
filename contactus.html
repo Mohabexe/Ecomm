@@ -6,21 +6,19 @@
     <title>Contact Us - Finnwick</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contactus.css">
-    <script src="menu.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <!-- Header -->
     <header>
         <img class="logo" src="./Assets/Logo.png" alt="Finnwick Logo">
         <div>
-            <button><img src="./Assets/ Login.svg" alt="Login"></button>
+            <button><a href="signup.html"><img src="./Assets/Login.svg" alt="Login"></a></button>
             <div class="menu">
                 <img src="./Assets/Menu.svg" alt="Menu" id="menu-toggle">
             </div>
         </div>
     </header>
 
-    <!-- Mobile Menu Overlay -->
     <div class="mobile-menu" id="mobile-menu">
         <div class="menu-header">
             <button class="close-menu" id="close-menu">✕</button>
@@ -53,7 +51,6 @@
         </nav>
     </div>
 
-    <!-- Help Center Section -->
     <section class="help-center-container">
         <div class="help-center-header">
             <h1>help center</h1>
@@ -75,22 +72,22 @@
             <form class="contact-form">
                 <div class="form-group">
                     <label for="firstName">First name</label>
-                    <input type="text" id="firstName" name="firstName" placeholder="Jane">
+                    <input type="text" id="firstName" name="firstName" placeholder="Jane" required>
                 </div>
 
                 <div class="form-group">
                     <label for="lastName">Last name</label>
-                    <input type="text" id="lastName" name="lastName" placeholder="Smith">
+                    <input type="text" id="lastName" name="lastName" placeholder="Smith" required>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" id="email" name="email" placeholder="email@janesfeedomain.net">
+                    <input type="email" id="email" name="email" placeholder="email@janesfeedomain.net" required>
                 </div>
 
                 <div class="form-group full-width">
                     <label for="message">Your message</label>
-                    <textarea id="message" name="message" placeholder="Enter your question or message"></textarea>
+                    <textarea id="message" name="message" placeholder="Enter your question or message" required></textarea>
                 </div>
 
                 <button type="submit" class="submit-btn">Submit</button>
@@ -112,7 +109,7 @@
             <div>
                 <p class="first">Customer Support</p>
                 <p><a href="contactus.html">Contact Us</a></p>
-                <p><a href="announcements.html">Help Center / FAQ</a></p>
+                <p><a href="aboutus.html">Help Center / FAQ</a></p>
                 <p><a href="announcements.html">Shipping & Delivery</a></p>
             </div>
             <div>
