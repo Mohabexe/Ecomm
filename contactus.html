@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Finnwick</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contactus.css">
+    <script src="menu.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img class="logo" src="./Assets/Logo.png" alt="Finnwick Logo">
+        <div>
+            <button><img src="./Assets/ Login.svg" alt="Login"></button>
+            <div class="menu">
+                <img src="./Assets/Menu.svg" alt="Menu" id="menu-toggle">
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="menu-header">
+            <button class="close-menu" id="close-menu">✕</button>
+        </div>
+        <nav class="menu-items">
+            <a href="index.html" class="menu-item">
+                <img src="./Assets/Vector.png" alt="">
+                <div class="menu-text">Home</div>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="./Assets/Vector(1).png" alt="">
+                <div class="menu-text">What's New</div>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="./Assets/Vector(2).png" alt="">
+                <div class="menu-text">my list</div>
+            </a>
+            <a href="products.html" class="menu-item">
+                <img src="./Assets/Group.png" alt="">
+                <div class="menu-text">shop</div>
+            </a>
+            <a href="aboutus.html" class="menu-item">
+                <img src="./Assets/Vector(3).png" alt="">
+                <div class="menu-text">about us</div>
+            </a>
+            <a href="contactus.html" class="menu-item">
+                <img src="./Assets/Vector(4).png" alt="">
+                <div class="menu-text">help center</div>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Help Center Section -->
+    <section class="help-center-container">
+        <div class="help-center-header">
+            <h1>help center</h1>
+            <p>
+                Welcome to the Finnwick Help Center! Here you'll find comprehensive guides, 
+                troubleshooting tips, and answers to frequently asked questions about our range 
+                of smart home gadgets. Whether you're setting up your new Finnwick smart lights, 
+                connecting your security system, or exploring the features of your smart 
+                thermostat, our goal is to provide you with the resources you need for a seamless and 
+                intelligent home experience. Browse our categories, use the search bar, or check out 
+                our quick start guides to get the most out of your Finnwick smart home technology. If you 
+                can't find what you're looking for, our support team is here to help – find our contact 
+                information below.
+            </p>
+        </div>
+
+        <div class="contact-form-container">
+            <h2>Contact US</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Jane">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Smith">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" placeholder="email@janesfeedomain.net">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message" placeholder="Enter your question or message"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3 class="shop-title">FINNWICK</h3>
+            <div class="social-media">
+                <img src="./Assets/Facebook.svg" alt="">
+                <img src="./Assets/LinkedIn.svg" alt="">
+                <img src="./Assets/Youtube.svg" alt="">
+                <img src="./Assets/Insta.svg" alt="">
+            </div>
+        </div>
+        <div class="footer-container">
+            <div>
+                <p class="first">Customer Support</p>
+                <p>Contact Us</p>
+                <p>Help Center / FAQ</p>
+                <p>Shipping & Delivery</p>
+            </div>
+            <div>
+                <p class="first">Information</p>
+                <p>About Us</p>
+                <p>Our Blog</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div>
+                <p class="first">Shop</p>
+                <p>All Products</p>
+                <p>Brands</p>
+                <p>New Arrivals</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

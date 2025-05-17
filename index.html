@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnwick - Smart Home Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./Assets/Logo.png" alt="Finnwick Logo">
+        <div>
+            <button><img src="./Assets/ Login.svg" alt="Login"></button>
+            <div class="menu">
+                <img src="./Assets/Menu.svg" alt="Menu" id="menu-toggle">
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="menu-header">
+            <button class="close-menu" id="close-menu">✕</button>
+        </div>
+        <nav class="menu-items">
+            <a href="index.html" class="menu-item">
+                <img src="./Assets/Vector.png" alt="">
+                <div class="menu-text">Home</div>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="./Assets/Vector(1).png" alt="">
+                <div class="menu-text">What's New</div>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="./Assets/Vector(2).png" alt="">
+                <div class="menu-text">my list</div>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="./Assets/Group.png" alt="">
+                <div class="menu-text">shop</div>
+            </a>
+            <a href="aboutus.html" class="menu-item">
+                <img src="./Assets/Vector(3).png" alt="">
+                <div class="menu-text">about us</div>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="./Assets/Vector(4).png" alt="">
+                <div class="menu-text">help center</div>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Explore</h1>
+            <a href="#products" class="visit-btn">VISIT</a>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products" class="featured-products">
+        <div class="product-card">
+            <div class="product-info">
+                <h2>Upgrade your home</h2>
+                <p>Security Cameras: Arlo Pro 5S 2K is a top pick for outdoor security due to its easy DIY installation and long battery life.</p>
+                <div class="product-actions">
+                    <a href="checkout.html" class="view-btn">view</a>
+                    <button class="save-btn">save to list</button>
+                </div>
+            </div>
+            <div class="product-image">
+                <img src="./Assets/Second.png" alt="Arlo Pro Security Camera">
+            </div>
+        </div>
+
+        <div class="product-card reverse">
+            <div class="product-info">
+                <h2>Can't miss</h2>
+                <p>The August Wi-Fi Smart Lock provides keyless entry and integrates with various smart home ecosystems.</p>
+                <div class="product-actions">
+                    <a href="#" class="view-btn">view</a>
+                    <button class="save-btn">save to list</button>
+                </div>
+            </div>
+            <div class="product-image">
+                <img src="./Assets/Third.png" alt="August Smart Lock">
+            </div>
+        </div>
+    </section>
+
+    <!-- Kitchen Stuff Section -->
+    <section id="kitchen" class="kitchen-section">
+        <h2 class="section-title">Kitchen Stuff</h2>
+        <div class="kitchen-products">
+            <div class="kitchen-product">
+                <img src="./Assets/Fourth.png" alt="Smart Coffee Maker">
+                <h3>smart coffee maker</h3>
+                <p class="price">60$</p>
+                <div class="product-actions">
+                    <a href="#" class="view-btn">view</a>
+                    <button class="save-btn">save to list</button>
+                </div>
+            </div>
+            <div class="kitchen-product">
+                <img src="./Assets/Fifth.png" alt="Smart Oven">
+                <h3>smart ovens</h3>
+                <p class="price">200$</p>
+                <div class="product-actions">
+                    <a href="#" class="view-btn">view</a>
+                    <button class="save-btn">save to list</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3 class="shop-title">FINNWICK</h3>
+            <div class="social-media">
+                <img src="./Assets/Facebook.svg" alt="">
+                <img src="./Assets/LinkedIn.svg" alt="">
+                <img src="./Assets/Youtube.svg" alt="">
+                <img src="./Assets/Insta.svg" alt="">
+            </div>
+        </div>
+        <div class="footer-container">
+            <div>
+                <p class="first">Customer Support</p>
+                <p>Contact Us</p>
+                <p>Help Center / FAQ</p>
+                <p>Shipping & Delivery</p>
+            </div>
+            <div>
+                <p class="first">Information</p>
+                <p>About Us</p>
+                <p>Our Blog</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div>
+                <p class="first">Shop</p>
+                <p>All Products</p>
+                <p>Brands</p>
+                <p>New Arrivals</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

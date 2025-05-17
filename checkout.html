@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Finnwick</title>
+    <link rel="stylesheet" href="checkout.css">
+    <script src="menu.js" ></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./Assets/Logo.png" alt="Finnwick Logo">
+        <div>
+            <button><img src="./Assets/ Login.svg" alt="Login"></button>
+            <div class="menu">
+                <img src="./Assets/Menu.svg" alt="Menu" id="menu-toggle">
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="menu-header">
+            <button class="close-menu" id="close-menu">✕</button>
+        </div>
+        <nav class="menu-items">
+            <a href="index.html" class="menu-item">
+                <img src="./Assets/Vector.png" alt="">
+                <div class="menu-text">Home</div>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="./Assets/Vector(1).png" alt="">
+                <div class="menu-text">What's New</div>
+            </a>
+            <a href="#" class="menu-item">
+                <img src="./Assets/Vector(2).png" alt="">
+                <div class="menu-text">my list</div>
+            </a>
+            <a href="products.html" class="menu-item">
+                <img src="./Assets/Group.png" alt="">
+                <div class="menu-text">shop</div>
+            </a>
+            <a href="aboutus.html" class="menu-item">
+                <img src="./Assets/Vector(3).png" alt="">
+                <div class="menu-text">about us</div>
+            </a>
+            <a href="contactus.html" class="menu-item">
+                <img src="./Assets/Vector(4).png" alt="">
+                <div class="menu-text">help center</div>
+            </a>
+        </nav>
+    </div>
+
+    <div class="checkout-container">
+        <div class="product-image">
+            <img src="./Assets/Checkout.png" alt="Arlo Pro 5S 2K Camera">
+        </div>
+
+        <div class="checkout-details">
+            <h1 class="checkout-title">product checkout</h1>
+            
+            <h2 class="product-name">Arlo Pro 5S 2K</h2>
+            <p class="product-price">$180</p>
+            
+            <div class="card-details">
+                <h2>card details</h2>
+                
+                <div class="form-group">
+                    <label for="card-number">Card number</label>
+                    <input type="text" id="card-number">
+                </div>
+                
+                <div class="form-group">
+                    <label for="expiration">expiration date</label>
+                    <input type="text" id="expiration">
+                </div>
+                
+                <div class="form-group">
+                    <label for="cvv">cvv</label>
+                    <input type="text" id="cvv">
+                </div>
+                
+                <div class="form-group">
+                    <label for="card-holder">card holder</label>
+                    <input type="text" id="card-holder">
+                </div>
+                
+                <button class="pay-btn">pay</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <h3 class="shop-title">FINNWICK</h3>
+            <div class="social-media">
+                <img src="./Assets/Facebook.svg" alt="">
+                <img src="./Assets/LinkedIn.svg" alt="">
+                <img src="./Assets/Youtube.svg" alt="">
+                <img src="./Assets/Insta.svg" alt="">
+            </div>
+        </div>
+        <div class="footer-container">
+            <div>
+                <p class="first">Customer Support</p>
+                <p>Contact Us</p>
+                <p>Help Center / FAQ</p>
+                <p>Shipping & Delivery</p>
+            </div>
+            <div>
+                <p class="first">Information</p>
+                <p>About Us</p>
+                <p>Our Blog</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div>
+                <p class="first">Shop</p>
+                <p>All Products</p>
+                <p>Brands</p>
+                <p>New Arrivals</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
